@@ -11,4 +11,4 @@ def sumMultiplesOfThreeAndFiveBelow (n)
 end
 
 answer = sumMultiplesOfThreeAndFiveBelow 1000
-print answer
+puts answer
