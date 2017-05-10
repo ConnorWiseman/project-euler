@@ -1,4 +1,5 @@
 #include <iostream>
+using namespace std;
 
 int sumMultiplesOfThreeAndFiveBelow(int n)
 {
@@ -16,7 +17,7 @@ int sumMultiplesOfThreeAndFiveBelow(int n)
 int main(int argc, const char * argv[])
 {
    int answer = sumMultiplesOfThreeAndFiveBelow(1000);
-   std::cout << answer << std::endl;
-   
+   cout << answer << endl;
+
    return 0;
 }
